@@ -1,0 +1,132 @@
+# TempleOS: синяя полоса сверху, меню в стиле DOS (белая карточка,
+# синяя рамка, выбранная строка инвертирована: белым по синему).
+
+[bar]
+background       = "#0000aa"
+background-alpha = 1.0
+text             = "#ffffff"
+active           = "#ffff55"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
+
+[hyprland]
+active-border            = "#0000aa"
+active-border-foreground = "#0000aa"
+
+[controls]
+normal-color        = "#0000aa"
+normal-fill-alpha   = 0.0
+normal-border       = "#0000aa"
+normal-border-width = 1
+normal-border-alpha = 1.0
+hover-cursor-color        = "#ffffff"
+hover-cursor-fill-alpha   = 1.0
+hover-cursor-border       = "#0000aa"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 1.0
+focus-color        = "#ffffff"
+focus-fill-alpha   = 1.0
+focus-border       = "#0000aa"
+focus-border-width = 1
+focus-border-alpha = 1.0
+selected-color        = "#aa0000"
+selected-fill-alpha   = 0.15
+selected-border       = "#aa0000"
+selected-border-width = 1
+selected-border-alpha = 1.0
+pressed-fill-alpha   = 0.3
+selection-fill-alpha = 0.5
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 13
+
+[popups]
+background       = "#ffffff"
+background-alpha = 1.0
+text             = "#0000aa"
+border           = "#0000aa"
+border-alpha     = 1.0
+border-width     = 3
+
+[tooltip]
+background       = "#ffffaa"
+background-alpha = 1.0
+text             = "#0000aa"
+border           = "#0000aa"
+border-alpha     = 1.0
+
+[notifications]
+background       = "#ffffff"
+background-alpha = 1.0
+text             = "#0000aa"
+border           = "#0000aa"
+border-alpha     = 1.0
+border-width     = 3
+countdown        = "#aa0000"
+
+[launcher]
+background                = "#ffffff"
+background-alpha          = 1.0
+text                      = "#0000aa"
+border                    = "#0000aa"
+border-alpha              = 1.0
+scrim                     = "#0000aa"
+scrim-alpha               = 0.15
+selected-background       = "#0000aa"
+selected-background-alpha = 1.0
+selected-text             = "#ffff55"
+selected-border           = "#0000aa"
+selected-border-alpha     = 1.0
+
+[menu]
+background                = "#ffffff"
+background-alpha          = 1.0
+text                      = "#0000aa"
+border                    = "#0000aa"
+border-alpha              = 1.0
+scrim                     = "#0000aa"
+scrim-alpha               = 0.15
+selected-background       = "#0000aa"
+selected-background-alpha = 1.0
+selected-text             = "#ffff55"
+selected-border           = "#0000aa"
+selected-border-alpha     = 1.0
+
+[polkit]
+background       = "#ffffff"
+background-alpha = 1.0
+text             = "#0000aa"
+text-error       = "#aa0000"
+border           = "#0000aa"
+border-error     = "#aa0000"
+border-alpha     = 1.0
+scrim            = "#0000aa"
+scrim-alpha      = 0.3
+accent           = "#aa0000"
+
+[lock]
+background       = "#ffffff"
+background-alpha = 1.0
+text             = "#0000aa"
+placeholder      = "#5555ff"
+text-error       = "#aa0000"
+border           = "#0000aa"
+border-active    = "#aa0000"
+border-error     = "#ff5555"
+border-alpha     = 1.0
+selection        = "#55ffff"
+selection-alpha  = 0.6
+
+[image-picker]
+scrim                   = "#ffffff"
+scrim-alpha             = 0.6
+text                    = "#0000aa"
+selected-border         = "#aa0000"
+selected-border-alpha   = 1.0
+unselected-border       = "#0000aa"
+unselected-border-alpha = 0.5
